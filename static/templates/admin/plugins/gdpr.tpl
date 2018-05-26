@@ -51,9 +51,9 @@
 										<strong>Utilisateur :</strong> {../username}<br />
 										<strong>Consentement:</strong>
 										<!-- IF ../consented -->
-										<span class="label label-success"><i class="fas thumbs-up"></i></span>
+										<span class="label label-success"><i class="fa fa-thumbs-up"></i></span>
 										<!-- ELSE -->
-										<span class="label label-danger"><i class="fas thumbs-down"></i></span>
+										<span class="label label-danger"><i class="fa fa-thumbs-down"></i></span>
 										<!-- END -->
 									</p>
 								</div>
@@ -98,9 +98,9 @@
 								</td>
 								<td>
 									<!-- IF ../gdpr_consent -->
-									<span class="label label-success"><i class="fas thumbs-up"></i></span>
+									<span class="label label-success"><i class="fa fa-thumbs-up"></i></span>
 									<!-- ELSE -->
-									<span class="label label-danger"><i class="fas thumbs-down"></i></span>
+									<span class="label label-danger"><i class="fa fa-thumbs-down"></i></span>
 									<!-- END -->
 								</td>
 							</tr>
