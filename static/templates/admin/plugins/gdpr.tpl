@@ -3,12 +3,12 @@
 		<div class="col-sm-2 col-xs-12 settings-header">Configuration</div>
 		<div class="col-sm-5 col-xs-12">
 			<p class="lead">
-				Ce plugin vous permet d\'administrer les états de consentement dev vos utilisateurs.
+				Ce plugin vous permet d'administrer les états de consentement de vos utilisateurs.
 			</p>
 			<p>
-				Il est principalement utile aux communautés soumis à la législation GDPR, car les utilisateurs doivent donner leur accord pour le traitement des données.
-				Malheureusement, il n\'y a pas de clause ou de précédent pour les droits acquis ou implicites.
-				En tant qu\'administrateur, vous devez vous assurer que tous vos utilisateurs ont donné leur consentement pour que votre forum soit considéré conforme à GDPR.
+				Il est utile aux communautés soumise à la législation GDPR, car les utilisateurs doivent donner leur accord pour le traitement des données.
+				Malheureusement, il n'y a pas de clause pour les droits acquis ou implicites.
+				En tant qu'administrateur, vous devez vous assurer que tous vos utilisateurs ont donné leur consentement pour que votre forum soit considéré conforme à GDPR.
 			</p>
 			<div class="form-group">
 				<div class="checkbox">
@@ -28,7 +28,7 @@
 					<h3 class="panel-title">Rechercher un Utilisateur</h3>
 				</div>
 				<div class="panel-body form">
-					<p>Vérifiez le statut de consentement pour un utilisateur ici.</p>
+					<p>Vérifiez le statut par un utilisateur ici.</p>
 					<div class="form-group">
 						<label for="user-search">[[users:search]]</label>
 						<input class="form-control" type="text" id="user-search" placeholder="[[users:enter_username]]" />
@@ -51,9 +51,9 @@
 										<strong>Utilisateur :</strong> {../username}<br />
 										<strong>Consentement:</strong>
 										<!-- IF ../consented -->
-										<span class="label label-success"><i class="fa fa-check"></i></span>
+										<span class="label label-success"><i class="fa thumbs-up"></i></span>
 										<!-- ELSE -->
-										<span class="label label-danger"><i class="fa fa-times"></i></span>
+										<span class="label label-danger"><i class="fa thumbs-down"></i></span>
 										<!-- END -->
 									</p>
 								</div>
@@ -79,8 +79,8 @@
 					<table class="table table-striped">
 						<thead>
 							<tr>
-								<th colspan="2">Utilisateur</th>
-								<th>Consentement</th>
+								<th colspan="2">Utilisateurs</th>
+								<th>Accord</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -98,9 +98,9 @@
 								</td>
 								<td>
 									<!-- IF ../gdpr_consent -->
-									<span class="label label-success"><i class="fa fa-check"></i></span>
+									<span class="label label-success"><i class="fa thumbs-up"></i></span>
 									<!-- ELSE -->
-									<span class="label label-danger"><i class="fa fa-times"></i></span>
+									<span class="label label-danger"><i class="fa thumbs-down"></i></span>
 									<!-- END -->
 								</td>
 							</tr>
@@ -116,5 +116,5 @@
 </form>
 
 <button id="save" class="floating-button mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-	<i class="material-icons">Enregistrer</i>
+	<i class="material-icons">Valider</i>
 </button>

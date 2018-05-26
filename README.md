@@ -1,4 +1,4 @@
-# GDPR Plugin for NodeBB
+# GDPR Plugin FR for NodeBB
 
 This plugin allows an administrator to properly audit their existing userbase on their forum for GDPR compliance.
 

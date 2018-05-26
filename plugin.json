@@ -1,6 +1,6 @@
 {
-	"id": "nodebb-plugin-gdpr",
-	"url": "https://github.com/NodeBB/nodebb-plugin-gdpr",
+	"id": "nodebb-plugin-gdpr-fr",
+	"url": "https://github.com/TheWorms/nodebb-plugin-gdpr-fr",
 	"library": "./library.js",
 	"hooks": [
 		{ "hook": "static:app.load", "method": "init" },
