@@ -13,7 +13,7 @@ define('admin/plugins/gdpr', ['settings', 'autocomplete'], function (Settings, a
 				app.alert({
 					type: 'success',
 					alert_id: 'gdpr-saved',
-					title: 'Settings Saved',
+					title: 'Paramêtre sauvegardé',
 				});
 			});
 		});

@@ -1,38 +1,34 @@
 <form role="form" class="gdpr-settings">
 	<div class="row">
-		<div class="col-sm-2 col-xs-12 settings-header">General</div>
+		<div class="col-sm-2 col-xs-12 settings-header">Configuration</div>
 		<div class="col-sm-5 col-xs-12">
 			<p class="lead">
-				This plugin allows you to administer the consent states for the users in your forum.
+				Ce plugin vous permet d\'administrer les états de consentement dev vos utilisateurs.
 			</p>
 			<p>
-				It is primarily useful to those communities that have been active before the GDPR legislation
-				came into effect, as the users in those communities must also give their consent for data processing.
-				Unfortunately, there is no clause nor precedent for grandfathering or implied consent, so as a forum
-				administrator, you must ensure that all of your users have consented in order for your forum to be
-				considered compliant with GDPR.
+				Il est principalement utile aux communautés soumis à la législation GDPR, car les utilisateurs doivent donner leur accord pour le traitement des données.
+				Malheureusement, il n\'y a pas de clause ou de précédent pour les droits acquis ou implicites.
+				En tant qu\'administrateur, vous devez vous assurer que tous vos utilisateurs ont donné leur consentement pour que votre forum soit considéré conforme à GDPR.
 			</p>
 			<div class="form-group">
 				<div class="checkbox">
 					<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect">
 						<input class="mdl-switch__input" type="checkbox" id="require_consent" name="require_consent">
-						<span class="mdl-switch__label">Require Consent for Existing Users</span>
+						<span class="mdl-switch__label">Exiger le consentement des utilisateurs existants</span>
 					</label>
 				</div>
 				<p class="help-block">
-					If enabled, any user logged in that does has not explicitly given consent will be redirected to the
-					&quot;Your Rights &amp; Consent&quot; page so they can provide consent. They will be required to do
-					so before they can interact with the forum.
+					Si cette option est activée, tout utilisateur connecté n'ayant pas explicitement donné son consentement sera redirigé vers la page &quot;Vos données personnelles&quot; pour pouvoir donner son consentement. Ils devront le faire avant de pouvoir interagir avec le forum
 				</p>
 			</div>
 		</div>
 		<div class="col-sm-5 col-xs-12">
 			<div class="panel panel-default">
 				<div class="panel-heading">
-					<h3 class="panel-title">User Search</h3>
+					<h3 class="panel-title">Rechercher un Utilisateur</h3>
 				</div>
 				<div class="panel-body form">
-					<p>Check consent status for an individual user here.</p>
+					<p>Vérifiez le statut de consentement pour un utilisateur ici.</p>
 					<div class="form-group">
 						<label for="user-search">[[users:search]]</label>
 						<input class="form-control" type="text" id="user-search" placeholder="[[users:enter_username]]" />
@@ -52,8 +48,8 @@
 								</div>
 								<div class="col-xs-9">
 									<p>
-										<strong>Username:</strong> {../username}<br />
-										<strong>Consented:</strong>
+										<strong>Utilisateur :</strong> {../username}<br />
+										<strong>Consentement:</strong>
 										<!-- IF ../consented -->
 										<span class="label label-success"><i class="fa fa-check"></i></span>
 										<!-- ELSE -->
@@ -77,14 +73,14 @@
 		<div class="col-xs-12">
 			<div class="panel panel-default">
 				<div class="panel-heading">
-					<h3 class="panel-title">Users</h3>
+					<h3 class="panel-title">Utilisateur</h3>
 				</div>
 				<div class="panel-body">
 					<table class="table table-striped">
 						<thead>
 							<tr>
-								<th colspan="2">User</th>
-								<th>Consented</th>
+								<th colspan="2">Utilisateur</th>
+								<th>Consentement</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -120,5 +116,5 @@
 </form>
 
 <button id="save" class="floating-button mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-	<i class="material-icons">save</i>
+	<i class="material-icons">Enregistrer</i>
 </button>

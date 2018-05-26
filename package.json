@@ -1,11 +1,11 @@
 {
-  "name": "nodebb-plugin-gdpr",
-  "version": "1.0.4",
+  "name": "nodebb-plugin-gdpr-fr",
+  "version": "1.0.5",
   "description": "GDPR Plugin for NodeBB",
   "main": "library.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/julianlam/nodebb-plugin-gdpr"
+    "url": "https://github.com/TheWorms/nodebb-plugin-gdpr-fr"
   },
   "keywords": [
     "nodebb",
@@ -15,9 +15,16 @@
     "name": "Julian Lam",
     "email": "julian@nodebb.org"
   },
+  "contributors": [
+    {
+      "name": "The Worm's",
+      "email": "theworms@theworms.fr",
+      "url": "https://github.com/TheWorms"
+    }
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/julianlam/nodebb-plugin-gdpr/issues"
+    "url": "https://github.com/TheWorms/nodebb-plugin-gdpr-fr/issues"
   },
   "readmeFilename": "README.md",
   "nbbpm": {
