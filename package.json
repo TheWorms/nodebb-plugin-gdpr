@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-gdpr-fr",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "GDPR Plugin for NodeBB",
   "main": "library.js",
   "repository": {
