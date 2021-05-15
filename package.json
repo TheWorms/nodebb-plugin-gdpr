@@ -28,14 +28,15 @@
   },
   "readmeFilename": "README.md",
   "nbbpm": {
-   "compatibility": "^1.11.0"
+    "compatibility": "^1.11.0"
   },
   "dependencies": {
     "async": "^2.6.0"
   },
   "devDependencies": {
-    "eslint": "^4.9.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^17.1.1",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.7.0"
+    "eslint-plugin-import": "^2.18.0"
   }
 }
